@@ -11,43 +11,40 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-                
-                         NavigationLink(destination: helpPage()){
-                             Text("?")
-                                 .font(.title)
-                                 .foregroundColor(Color.white)
-                         }
-                         
-                         .padding(.leading, 300.0)
-                
+                 NavigationLink(destination: helpPage()){
+                     Text("?")
+                         .font(.title)
+                         .foregroundColor(Color.white)
+                 }
+                 .padding(.leading, 300.0)
                 Text("Grow")
-             
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.173, saturation: 0.327, brightness: 0.971))
                     .padding(.bottom, 250)
+                
                 VStack{
-                    NavigationLink(destination: firstPage()){
+                    NavigationLink(destination: socialPage()){
                         Text("Social")
                     }
                     HStack{
-                    NavigationLink(destination: kindPage()){
-                   Text("kindness")
-                Spacer()
-                    }
-                    NavigationLink(destination: productivePage()){
+                        NavigationLink(destination: kindPage()){
+                            Text("kindness")
+                            Spacer()
+                        }
+                        NavigationLink(destination: productivePage()){
                             Text("productivity")
-                    }
-                    }
+                        }
+                        }
                         NavigationLink(destination: selfCarePage()){
                             Text("Self Care")
                     }
-                
                 }
+                .padding(.bottom, 10.0)
+                Spacer()
             }
         }
-                Spacer()
-            .padding(.bottom, 10.0)
+        
     }
 }
 struct ContentView_Previews: PreviewProvider {

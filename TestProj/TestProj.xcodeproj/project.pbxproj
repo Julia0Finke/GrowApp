@@ -17,6 +17,7 @@
 		491C6BDE27A4432D001F7F43 /* selfCarePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C6BDD27A4432C001F7F43 /* selfCarePage.swift */; };
 		495F3F2F27A701B200EA47D0 /* helpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3F2E27A701B200EA47D0 /* helpPage.swift */; };
 		497DDD8D27B69ECF00862C36 /* flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DDD8C27B69ECF00862C36 /* flower.swift */; };
+		49A4183727BC20C800B910C6 /* levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4183627BC20C700B910C6 /* levels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		491C6BDD27A4432C001F7F43 /* selfCarePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfCarePage.swift; sourceTree = "<group>"; };
 		495F3F2E27A701B200EA47D0 /* helpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpPage.swift; sourceTree = "<group>"; };
 		497DDD8C27B69ECF00862C36 /* flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flower.swift; sourceTree = "<group>"; };
+		49A4183627BC20C700B910C6 /* levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				491C6BCB27A1C4DD001F7F43 /* ContentView.swift */,
 				497DDD8C27B69ECF00862C36 /* flower.swift */,
 				491C6BD727A1C845001F7F43 /* socialPage.swift */,
+				49A4183627BC20C700B910C6 /* levels.swift */,
 				495F3F2E27A701B200EA47D0 /* helpPage.swift */,
 				491C6BDD27A4432C001F7F43 /* selfCarePage.swift */,
 				491C6BDB27A440A9001F7F43 /* productivePage.swift */,
@@ -159,6 +162,7 @@
 				491C6BCC27A1C4DD001F7F43 /* ContentView.swift in Sources */,
 				491C6BCA27A1C4DD001F7F43 /* TestProjApp.swift in Sources */,
 				491C6BD827A1C845001F7F43 /* socialPage.swift in Sources */,
+				49A4183727BC20C800B910C6 /* levels.swift in Sources */,
 				491C6BDC27A440A9001F7F43 /* productivePage.swift in Sources */,
 				491C6BDE27A4432D001F7F43 /* selfCarePage.swift in Sources */,
 				497DDD8D27B69ECF00862C36 /* flower.swift in Sources */,

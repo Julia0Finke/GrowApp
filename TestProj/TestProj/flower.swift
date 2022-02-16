@@ -9,7 +9,13 @@ import Foundation
 
 
 struct flower: Identifiable{
+    var id: ObjectIdentifier
+    
+    //let petal = UUID()
     var Time: Int
     var levels: Int
-    var petal = UUID()
+    
+
+    
+    
 }
